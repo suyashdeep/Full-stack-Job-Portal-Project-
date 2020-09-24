@@ -1,0 +1,20 @@
+
+
+#insidenav{
+    background: dodgerblue;
+    color: white;
+    font-size: 13px;
+}
+nav a{
+    font-size: 16px;
+    font-family: ubuntu;
+    color: white;
+}
+
+table.table{
+    background: transparent;
+}
+td.tbold{
+    font-weight: bold;
+    width: 200px;
+}

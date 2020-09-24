@@ -1,0 +1,17 @@
+
+#insidenav{
+    background: deepskyblue;
+    color: white;
+    font-size: 13px;
+}
+nav a{
+    font-size: 16px;
+    font-family: ubuntu;
+    color: white;
+}
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+body{
+    background-image: url("../images/login.jpg");
+}
