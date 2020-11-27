@@ -56,8 +56,8 @@ CREATE TABLE IF NOT EXISTS `employer` (
 --
 
 INSERT INTO `employer` (`eid`, `log_id`, `ename`, `etype`, `industry`, `address`, `pincode`, `executive`, `phone`, `profile`) VALUES
-(1, 18, 'Infosys Pvt Ltd', 'Company', 'Software Services', 'Infosys,\r\nIT Zone,\r\n4 - BE,\r\nBangalore', '458796', 'Ajith', '9145512345', 'Infosys is a global leader in consulting, technology, and outsourcing and next-generation services. We enable clients in more than 50 countries to outperform the competition and stay ahead of the innovation curve.'),
-(2, 23, 'Microsoft', 'Company', 'Software Services', 'Microsoft, Bangalore, Karnataka', '456987', 'Arun', '78945612332', NULL);
+(1, 18, 'Global inc.', 'Company', 'Software Services', 'Global Inc.,\r\nBangalore', '458796', 'Ash', '9145562345', 'Global Inc is a leader in technology, and outsourcing and next-generation services.'),
+(2, 23, 'MS', 'Company', 'Software Services', 'MS', Bangalore, Karnataka', '456987', 'Arun', '78945612332', NULL);
 
 -- --------------------------------------------------------
 
@@ -146,11 +146,10 @@ CREATE TABLE IF NOT EXISTS `login` (
 
 INSERT INTO `login` (`log_id`, `email`, `password`, `usertype`, `status`) VALUES
 (14, 'akshay@gmail.com', '1234675', 'jobseeker', 1),
-(18, 'info@infosys.com', '4656576', 'employer', 0),
 (20, 'sreelal.c@live.com', '567676', 'jobseeker', 1),
 (21, 'abc@gmail.com', '1234567', 'jobseeker', 1),
 (22, 'jishnnuks@live.com', '345678', 'jobseeker', 1),
-(23, 'info@microsoft.com', '456789', 'employer', 1);
+(23, 'fo@ms.com', '456789', 'employer', 1);
 
 -- --------------------------------------------------------
 
