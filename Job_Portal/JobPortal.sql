@@ -146,10 +146,10 @@ CREATE TABLE IF NOT EXISTS `login` (
 
 INSERT INTO `login` (`log_id`, `email`, `password`, `usertype`, `status`) VALUES
 (14, 'akshay@gmail.com', '1234675', 'jobseeker', 1),
-(20, 'sreelal.c@live.com', '567676', 'jobseeker', 1),
+(20, 'sree@gmail.com', '567676', 'jobseeker', 1),
 (21, 'abc@gmail.com', '1234567', 'jobseeker', 1),
-(22, 'jishnnuks@live.com', '345678', 'jobseeker', 1),
-(23, 'fo@ms.com', '456789', 'employer', 1);
+(22, 'jishn@gmail.com', '345678', 'jobseeker', 1),
+(23, 'fo@gmail.com', '456789', 'employer', 1);
 
 -- --------------------------------------------------------
 
